@@ -2,7 +2,13 @@
 
 A whiteboard application that can we used for teaching purpose or for drawing.
 
-Tech stack - React + Chakra UI + Fabric.js
+Tech stack - React + Chakra UI + Fabric.js + draft.js
+
+[screen-capture.webm](https://github.com/mayank0274/learnSlate/assets/113236810/95af550a-839b-482e-9485-2c9368352515)
+
+## Preview
+
+https://learnnslate.netlify.app/
 
 ## Features
 
