@@ -1,0 +1,42 @@
+html,
+body {
+  overflow: hidden;
+}
+
+.tool {
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.tool-active {
+  background-color: #08ffc8;
+}
+
+.input-color {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-color: transparent;
+  width: 29px;
+  height: 33px;
+  border: none;
+  cursor: pointer;
+}
+
+.input-color::-webkit-color-swatch {
+  border-radius: 50%;
+}
+
+.input-color::-moz-color-swatch {
+  border-radius: 50%;
+}
+
+line {
+  stroke: rgb(0, 0, 0);
+  stroke-width: 2;
+}
+
+.canvas-container {
+  height: calc(100vh - 120px);
+  width: 100vw;
+}

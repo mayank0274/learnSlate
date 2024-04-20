@@ -1,0 +1,42 @@
+{
+  "name": "test",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@chakra-ui/icons": "^2.1.1",
+    "@chakra-ui/react": "^2.8.2",
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.5",
+    "@liveblocks/client": "^1.11.0",
+    "@liveblocks/react": "^1.11.0",
+    "babel-polyfill": "^6.26.0",
+    "draft-js": "^0.11.7",
+    "fabric": "^5.3.0",
+    "fabric-history": "^1.7.0",
+    "framer-motion": "^11.0.25",
+    "jspdf": "^2.5.1",
+    "react": "^18.2.0",
+    "react-autosave": "^0.4.4",
+    "react-dom": "^18.2.0",
+    "react-draft-wysiwyg": "^1.15.0",
+    "react-pdf": "^7.7.1"
+  },
+  "devDependencies": {
+    "@types/fabric": "^5.3.7",
+    "@types/react": "^18.2.66",
+    "@types/react-dom": "^18.2.22",
+    "@vitejs/plugin-react": "^4.2.1",
+    "eslint": "^8.57.0",
+    "eslint-plugin-react": "^7.34.1",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.6",
+    "vite": "^5.2.0"
+  }
+}
